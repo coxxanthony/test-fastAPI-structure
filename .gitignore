@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (venv)
+.venv/
+venv/
+
+# Poetry lock file (keep `poetry.lock` if you want strict dependencies)
+poetry.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# Database migrations (Alembic)
+migrations/
+alembic.ini
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.backup
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
